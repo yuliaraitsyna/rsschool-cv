@@ -26,7 +26,6 @@ BSU student of Faculty of Applied Mathematics and Computer Science. Experienced 
 - Vite
 - Swift
 - C++
-- Figma
 
 ## Experience
 - Traineeship: .NET and Git, EPAM
