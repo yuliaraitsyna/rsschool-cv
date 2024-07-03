@@ -15,8 +15,13 @@ main {
 }
 
 nav {
-    padding-left: 5%;
+    background-color: rgb(40, 46, 51);
+}
 
+ul {
+    margin: 0;
+    padding: 10px;
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -24,9 +29,11 @@ nav {
     gap:10%;
 
     background-color: rgb(40, 46, 51);
+
+    list-style-type: none;
 }
 
-nav > a {
+nav ul > li > a {
     height: 100%;
     padding: 10px;
 
@@ -38,7 +45,7 @@ nav > a {
     color: white;
 }
 
-nav > a:hover {
+nav > ul > li> a:hover {
     background-color: rgb(74, 81, 87);
 }
 
@@ -96,6 +103,11 @@ img {
     background-color: transparent;
 }
 
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -122,20 +134,42 @@ p {
     font-style: normal;
 }
 
-footer {
+footer { 
+    padding-left: 5%;
+
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     background-color: rgb(40, 46, 51);
 }
 
-footer > a {
-    padding: 20px;
+.contacts-container > h2 {
+    color: white;
+}
 
+.contacts-container > a,
+.contacts-container > p {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     color:white;
     text-decoration: none;
+}
+
+.author-info {
+    padding: 5%;
+    
+    color: rgb(198, 226, 227);
+
+    background-color: rgb(74, 81, 87);
+}
+
+@media (max-width: 900px) {
+    .profile-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
