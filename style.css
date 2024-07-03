@@ -134,6 +134,15 @@ p {
     font-style: normal;
 }
 
+.projects-container > h3 > a{
+    text-decoration: none;
+    color: black;
+}
+
+.tech-stack {
+    color:rgb(88, 88, 88);
+}
+
 footer { 
     padding-left: 5%;
 
