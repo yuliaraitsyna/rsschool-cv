@@ -1,0 +1,95 @@
+html {
+    margin: 0;
+    padding: 0;
+
+    background-color: azure;
+}
+
+body {
+    margin: 0;
+}
+
+.profile-container {
+    padding: 15px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    border: solid rgb(86, 100, 112) 4px;
+    border-radius: 50%;
+}
+
+.cv-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding: 15px;
+    margin: 10px;
+
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(185, 229, 229);
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+
+    color:white;
+
+    background-color: rgb(86, 100, 112);
+}
+
+.skills-container > p {
+    color:rgb(198, 226, 227);
+}
+
+.profile-container {
+    background-color: transparent;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color:white;
+
+    background-color: rgb(40, 46, 51);
+}
