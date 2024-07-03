@@ -7,15 +7,52 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 10% 0 10%;
+}
+
+nav {
+    padding-left: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10%;
+
+    background-color: rgb(40, 46, 51);
+}
+
+nav > a {
+    height: 100%;
+    padding: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+nav > a:hover {
+    background-color: rgb(74, 81, 87);
 }
 
 .profile-container {
-    padding: 15px;
-    margin: 10px;
+    padding: 50px;
+    margin: 20px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+header > p {
+    font-size: 30px;
 }
 
 img {
@@ -34,8 +71,8 @@ img {
 }
 
 .container {
-    padding: 15px;
-    margin: 10px;
+    padding: 30px;
+    margin: 20px;
 
     border:none;
     border-radius: 10px;
@@ -63,6 +100,7 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 50px;
 }
 
 h2 {
@@ -89,7 +127,15 @@ footer {
     align-items: center;
     justify-content: center;
 
-    color:white;
-
     background-color: rgb(40, 46, 51);
+}
+
+footer > a {
+    padding: 20px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:white;
+    text-decoration: none;
 }
