@@ -182,3 +182,29 @@ footer {
         align-items: center;
     }
 }
+
+@media (max-width: 670px) {
+    ul {     
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap:10%;
+    
+        background-color: rgb(40, 46, 51);
+    
+        list-style-type: none;
+    }
+
+    nav ul > li > a {
+        padding: 0;
+        height: auto;
+        width: 100%;
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+}
